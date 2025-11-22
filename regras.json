@@ -1,0 +1,16 @@
+{
+  "score": {
+    "minimo_aprovacao": 500,
+    "limiar_excecao": 450,
+    "limiar_alto": 650
+  },
+  "renda": {
+    "minimo": 2000,
+    "excecao_score_baixo": 1000
+  },
+  "situacao_cadastral": {
+    "nao_aceitos": ["negativado", "fraude", "inadimplente"]
+  },
+  "comprometimento_max": 0.35,
+  "profissoes_excecao": ["médico", "advogado", "engenheiro"]
+}

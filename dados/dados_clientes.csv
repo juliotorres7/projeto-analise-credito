@@ -1,0 +1,11 @@
+id,nome,idade,score,renda,compromissos,parcela_prevista,situacao,profissao,tempo_emprego_meses
+1,Ana,29,720,3500,200,300,ok,administrador,36
+2,Bruno,40,480,2500,300,400,ok,engenheiro,60
+3,Caio,23,430,12000,100,150,ok,motorista,12
+4,Daniela,55,660,1800,50,400,ok,enfermeira,240
+5,Eduardo,31,300,1500,50,200,negativado,professor,24
+6,Fabiana,27,560,2200,100,200,ok,médico,6
+7,Gustavo,38,640,8000,500,1000,ok,advogado,120
+8,Helena,45,510,1900,200,400,ok,gerente,48
+9,Ivan,50,700,12000,100,100,ok,consultor,180
+10,Julia,33,455,2100,100,300,ok,analista,30
