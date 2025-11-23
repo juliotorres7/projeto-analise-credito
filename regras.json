@@ -6,7 +6,7 @@
   },
   "renda": {
     "minimo": 2000,
-    "excecao_score_baixo": 1000
+    "excecao_score_baixo": 10000
   },
   "situacao_cadastral": {
     "nao_aceitos": ["negativado", "fraude", "inadimplente"]
