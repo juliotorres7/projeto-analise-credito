@@ -1,6 +1,7 @@
 import csv
 from typing import List, Dict, Any
 from engine import MotorCredito
+import pandas as pd
 
 def carregar_clientes_csv(path: str) -> List[Dict[str, Any]]:
     clientes = []
@@ -32,4 +33,6 @@ def avaliar_lote(regra_path: str, csv_file: str) -> List[Dict[str, Any]]:
 if __name__ == "__main__":
     import json
     resultados = avaliar_lote("regras.json", "./dados/dados_clientes.csv")
-    print(json.dumps(resultados, ensure_ascii=False, indent=2))
+    #print(json.dumps(resultados, ensure_ascii=False, indent=2))
+    df = pd.DataFrame(resultados)
+    print(df[["id","nome","decisao","motivo"]])
